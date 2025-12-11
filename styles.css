@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #fff4e6;
+  color: #333;
+}
+
+#main-header {
+  background-color: #e85d04;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+#main-header h1 {
+  margin: 0;
+}
+
+#main-header .tagline {
+  margin-top: 5px;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #f1c9a8;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #e85d04;
+  border-bottom: 2px solid #ffba08;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.intro {
+  color: #d9480f;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.project-table th {
+  background: #e85d04;
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+.project-table td {
+  border: 1px solid #f1c9a8;
+  padding: 8px;
+}
+
+.project-table tbody tr:nth-child(even) {
+  background: #fff1d0;
+}
+
+.project-table a {
+  color: #e85d04;
+  text-decoration: none;
+}
+
+.project-table a:hover {
+  text-decoration: underline;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-list li {
+  padding: 8px 0 8px 20px;
+  border-bottom: 1px solid #f1c9a8;
+  position: relative;
+}
+
+footer {
+  background: #6c6c6c;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.85rem;
+}
+
+footer a {
+  color: #ffba08;
+  text-decoration: none;
+}
